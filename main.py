@@ -1,3 +1,5 @@
+from src.utils import getName
+
 print("Hello!")
-name = input("What is your name?")
+name = getName()
 print("Hello, " + name + "!")
